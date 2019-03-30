@@ -1,0 +1,24 @@
+{
+  "name": "waves-intro",
+  "version": "1.0.0-dev.0",
+  "license": "GPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/phetsims/waves-intro.git"
+  },
+  "devDependencies": {
+    "grunt": "~1.0.0"
+  },
+  "phet": {
+    "requirejsNamespace": "WAVES_INTRO",
+    "runnable": true,
+    "supportedBrands": [
+      "phet",
+      "adapted-from-phet"
+    ],
+    "simulation": true
+  },
+  "eslintConfig": {
+    "extends": "../chipper/eslint/sim_es6_eslintrc.js"
+  }
+}
