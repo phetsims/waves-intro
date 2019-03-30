@@ -16,6 +16,11 @@
       "phet",
       "adapted-from-phet"
     ],
+    "phetLibs": [
+      "wave-interference",
+      "twixt",
+      "griddle"
+    ],
     "simulation": true
   },
   "eslintConfig": {
