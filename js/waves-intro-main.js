@@ -10,12 +10,18 @@ define( require => {
 
   // modules
   const AlignGroup = require( 'SCENERY/nodes/AlignGroup' );
+  const Image = require( 'SCENERY/nodes/Image' );
   const MediumScreen = require( 'WAVE_INTERFERENCE/medium/MediumScreen' );
   const Sim = require( 'JOIST/Sim' );
   const SimLauncher = require( 'JOIST/SimLauncher' );
 
   // strings
   const wavesIntroTitleString = require( 'string!WAVES_INTRO/waves-intro.title' );
+
+  // images
+  const lightScreenIcon = require( 'image!WAVES_INTRO/light_screen_icon.png' );
+  const soundScreenIcon = require( 'image!WAVES_INTRO/sound_screen_icon.png' );
+  const waterScreenIcon = require( 'image!WAVES_INTRO/water_screen_icon.png' );
 
   const simOptions = {
     credits: {
@@ -41,9 +47,21 @@ define( require => {
     } );
 
     const screens = [
-      new MediumScreen( 'waterScene', 'Water', alignGroup ),
-      new MediumScreen( 'soundScene', 'Sound', alignGroup ),
-      new MediumScreen( 'lightScene', 'Light', alignGroup )
+      new MediumScreen( alignGroup, {
+        initialScene: 'waterScene',
+        name: 'Water',
+        homeScreenIcon: new Image( waterScreenIcon )
+      } ),
+      new MediumScreen( alignGroup, {
+        initialScene: 'soundScene',
+        name: 'Sound',
+        homeScreenIcon: new Image( soundScreenIcon )
+      } ),
+      new MediumScreen( alignGroup, {
+        initialScene: 'lightScene',
+        name: 'Light',
+        homeScreenIcon: new Image( lightScreenIcon )
+      } )
     ];
     const sim = new Sim( wavesIntroTitleString, screens, simOptions );
     sim.start();
