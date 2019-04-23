@@ -55,7 +55,8 @@ define( require => {
       new MediumScreen( alignGroup, {
         initialScene: 'soundScene',
         name: 'Sound',
-        homeScreenIcon: new Image( soundScreenIcon )
+        homeScreenIcon: new Image( soundScreenIcon ),
+        showPlaySoundButton: true
       } ),
       new MediumScreen( alignGroup, {
         initialScene: 'lightScene',
