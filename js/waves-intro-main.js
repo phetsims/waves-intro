@@ -51,18 +51,21 @@ define( require => {
       new MediumScreen( alignGroup, {
         initialScene: 'waterScene',
         name: 'Water',
-        homeScreenIcon: new Image( waterScreenIcon )
+        homeScreenIcon: new Image( waterScreenIcon ),
+        supportsSound: true
       } ),
       new MediumScreen( alignGroup, {
         initialScene: 'soundScene',
         name: 'Sound',
         homeScreenIcon: new Image( soundScreenIcon ),
-        showPlaySoundButton: true
+        showPlaySoundButton: true,
+        supportsSound: true
       } ),
       new MediumScreen( alignGroup, {
         initialScene: 'lightScene',
         name: 'Light',
-        homeScreenIcon: new Image( lightScreenIcon )
+        homeScreenIcon: new Image( lightScreenIcon ),
+        supportsSound: true
       } )
     ];
     const sim = new Sim( wavesIntroTitleString, screens, simOptions );
