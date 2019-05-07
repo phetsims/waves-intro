@@ -1,5 +1,5 @@
 {
-  "comment": "# waves-intro 1.0.0-dev.5 Tue May 07 2019 11:05:19 GMT-0600 (MDT)",
+  "comment": "# waves-intro 1.0.0-dev.6 Tue May 07 2019 11:37:18 GMT-0600 (MDT)",
   "assert": {
     "sha": "d8a2e8992420327ff72a6fc4bb93ec76549ded0e",
     "branch": "master"
@@ -97,11 +97,11 @@
     "branch": "master"
   },
   "wave-interference": {
-    "sha": "053dba06b6d9d2c716184f1252383e3d0cac307f",
+    "sha": "d0049a5c9b51158a87d254d478a363f671f4f1ff",
     "branch": "master"
   },
   "waves-intro": {
-    "sha": "ca3259570cd05bdbf9768e12dc3178ef4e8fbb55",
+    "sha": "e2e59c6e7a44003ad9741e1285aec2c1d3410318",
     "branch": "master"
   }
 }
