@@ -32,8 +32,7 @@ define( require => {
       graphicArts: 'Cheryl McCutchan',
       thanks: 'Thanks to the STROBE NSF Science and Technology Center on Real-Time Functional Imaging for their support.'
     },
-    supportsSound: true,
-    accessibility: true
+    supportsSound: true
   };
 
   // launch the sim - beware that scenery Image nodes created outside of SimLauncher.launch() will have zero bounds
