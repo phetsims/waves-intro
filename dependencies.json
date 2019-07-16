@@ -1,5 +1,5 @@
 {
-  "comment": "# waves-intro 1.0.0-dev.7 Tue Jul 16 2019 09:07:54 GMT-0600 (MDT)",
+  "comment": "# waves-intro 1.0.0-dev.8 Tue Jul 16 2019 11:44:54 GMT-0600 (MDT)",
   "assert": {
     "sha": "d8a2e8992420327ff72a6fc4bb93ec76549ded0e",
     "branch": "master"
@@ -61,7 +61,7 @@
     "branch": "master"
   },
   "scenery-phet": {
-    "sha": "d62c6b2e8f0c76564b52c2c11f8e06dc4181f9ea",
+    "sha": "d6e94dc3665b877d63932c2aaf485d7cb9c83d4d",
     "branch": "master"
   },
   "sherpa": {
@@ -85,11 +85,11 @@
     "branch": "master"
   },
   "wave-interference": {
-    "sha": "4688cc1aa0cf83de79dc1f3c49d8e6fd53590393",
+    "sha": "40f8723a1bd439a4138a4106446fd01447d2285a",
     "branch": "master"
   },
   "waves-intro": {
-    "sha": "c8da4183d1d4d42ddac485bb6df206b2681ee72e",
+    "sha": "235a7258644e1583fc649be6cebe740474611664",
     "branch": "master"
   }
 }
