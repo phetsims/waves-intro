@@ -49,20 +49,20 @@ define( require => {
 
     const screens = [
       new MediumScreen( alignGroup, {
-        initialScene: 'waterScene',
+        scenes: ['waterScene'],
         name: 'Water',
         homeScreenIcon: new Image( waterScreenIcon ),
         supportsSound: true
       } ),
       new MediumScreen( alignGroup, {
-        initialScene: 'soundScene',
+        scenes: ['soundScene'],
         name: 'Sound',
         homeScreenIcon: new Image( soundScreenIcon ),
         showPlaySoundButton: true,
         supportsSound: true
       } ),
       new MediumScreen( alignGroup, {
-        initialScene: 'lightScene',
+        scenes: ['lightScene'],
         name: 'Light',
         homeScreenIcon: new Image( lightScreenIcon ),
         supportsSound: true
