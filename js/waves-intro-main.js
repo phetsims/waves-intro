@@ -11,7 +11,7 @@ define( require => {
   // modules
   const AlignGroup = require( 'SCENERY/nodes/AlignGroup' );
   const Image = require( 'SCENERY/nodes/Image' );
-  const MediumScreen = require( 'WAVE_INTERFERENCE/medium/MediumScreen' );
+  const MediumScreen = require( 'WAVE_INTERFERENCE/common/MediumScreen' );
   const Sim = require( 'JOIST/Sim' );
   const SimLauncher = require( 'JOIST/SimLauncher' );
 
