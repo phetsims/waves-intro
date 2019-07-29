@@ -17,6 +17,9 @@ define( require => {
 
   // strings
   const wavesIntroTitleString = require( 'string!WAVES_INTRO/waves-intro.title' );
+  const waterString = require( 'string!WAVES_INTRO/water' );
+  const soundString = require( 'string!WAVES_INTRO/sound' );
+  const lightString = require( 'string!WAVES_INTRO/light' );
 
   // images
   const lightScreenIcon = require( 'image!WAVES_INTRO/light_screen_icon.png' );
@@ -49,21 +52,21 @@ define( require => {
 
     const screens = [
       new MediumScreen( alignGroup, {
-        scenes: ['waterScene'],
-        name: 'Water',
+        scenes: [ 'waterScene' ],
+        name: waterString,
         homeScreenIcon: new Image( waterScreenIcon ),
         supportsSound: true
       } ),
       new MediumScreen( alignGroup, {
-        scenes: ['soundScene'],
-        name: 'Sound',
+        scenes: [ 'soundScene' ],
+        name: soundString,
         homeScreenIcon: new Image( soundScreenIcon ),
         showPlaySoundButton: true,
         supportsSound: true
       } ),
       new MediumScreen( alignGroup, {
-        scenes: ['lightScene'],
-        name: 'Light',
+        scenes: [ 'lightScene' ],
+        name: lightString,
         homeScreenIcon: new Image( lightScreenIcon ),
         supportsSound: true
       } )
