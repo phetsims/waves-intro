@@ -12,6 +12,7 @@ define( require => {
   const AlignGroup = require( 'SCENERY/nodes/AlignGroup' );
   const Image = require( 'SCENERY/nodes/Image' );
   const MediumScreen = require( 'WAVE_INTERFERENCE/common/MediumScreen' );
+  const platform = require( 'PHET_CORE/platform' );
   const Sim = require( 'JOIST/Sim' );
   const SimLauncher = require( 'JOIST/SimLauncher' );
 
@@ -35,6 +36,7 @@ define( require => {
       graphicArts: 'Cheryl McCutchan',
       thanks: 'Thanks to the STROBE NSF Science and Technology Center on Real-Time Functional Imaging for their support.'
     },
+    webgl: platform.mobileSafari,
     supportsSound: true
   };
 
