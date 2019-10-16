@@ -1,5 +1,5 @@
 {
-  "comment": "# waves-intro 1.0.0 Tue Oct 15 2019 16:25:14 GMT-0600 (Mountain Daylight Time)",
+  "comment": "# waves-intro 1.0.1-rc.1 Tue Oct 15 2019 19:49:16 GMT-0600 (Mountain Daylight Time)",
   "assert": {
     "sha": "201c50a840e082354b013f4ab9e9d45006f98cfe",
     "branch": "HEAD"
@@ -34,7 +34,7 @@
   },
   "phet-core": {
     "sha": "b8ad7c4c72d569c8e86b40853da62b1b98621909",
-    "branch": "waves-intro-1.0"
+    "branch": "HEAD"
   },
   "phet-io": {
     "sha": "3e2819bcb98e1fe3ef10cc272ea432bb3e091aa9",
@@ -89,7 +89,7 @@
     "branch": "HEAD"
   },
   "waves-intro": {
-    "sha": "bdffe7537287a7a87e788061f566e30af5b7593a",
+    "sha": "337a41acb1855f2acdeb67ffbbf923e44693a2d5",
     "branch": "1.0"
   }
 }
