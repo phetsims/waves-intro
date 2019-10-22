@@ -1,5 +1,5 @@
 {
-  "comment": "# waves-intro 1.1.0-dev.4 Tue Oct 22 2019 09:54:23 GMT-0600 (Mountain Daylight Time)",
+  "comment": "# waves-intro 1.1.0-dev.5 Tue Oct 22 2019 10:00:04 GMT-0600 (Mountain Daylight Time)",
   "assert": {
     "sha": "bd6e3ed0a8b6fea73a4a176d5364809666833e58",
     "branch": "master"
@@ -69,8 +69,8 @@
     "branch": "master"
   },
   "sun": {
-    "sha": "f0820dd27e2e2d45820cb2b13a2e7981cc28d820",
-    "branch": "sounds-in-common-code"
+    "sha": "994b79ed493f55c488a62eb35a886310c7408b3f",
+    "branch": "master"
   },
   "tambo": {
     "sha": "340d72cec98a94e6959c96a7911193738bffc00a",
@@ -85,11 +85,11 @@
     "branch": "master"
   },
   "wave-interference": {
-    "sha": "50928cc94cce27604aa790b7265c9dc18eefc0be",
+    "sha": "e0ddf9308b01444989aef2c543915f038a982f51",
     "branch": "master"
   },
   "waves-intro": {
-    "sha": "cfa3a529dad1f9b77e1abf5567e22071b9c28a5f",
+    "sha": "e5871b9094d05439a0c5db92a0498defb010cd57",
     "branch": "master"
   }
 }
