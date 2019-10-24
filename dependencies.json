@@ -1,5 +1,5 @@
 {
-  "comment": "# waves-intro 1.0.1-rc.2 Wed Oct 23 2019 16:26:52 GMT-0600 (Mountain Daylight Time)",
+  "comment": "# waves-intro 1.0.1-rc.3 Thu Oct 24 2019 02:12:59 GMT-0600 (Mountain Daylight Time)",
   "assert": {
     "sha": "201c50a840e082354b013f4ab9e9d45006f98cfe",
     "branch": "HEAD"
@@ -26,7 +26,7 @@
   },
   "joist": {
     "sha": "787d93b28538a747689138aa44d3de303a47e361",
-    "branch": "waves-intro-1.0"
+    "branch": "HEAD"
   },
   "kite": {
     "sha": "34e7bdb4379b8faab55c728fdd462d4477f77fe7",
@@ -89,7 +89,7 @@
     "branch": "HEAD"
   },
   "waves-intro": {
-    "sha": "701e2806e3e2cb3d5d042e37700beeed2bf41b84",
+    "sha": "6f9c03eda6fd16b51ab48b77aa08d926d4cbdc9d",
     "branch": "1.0"
   }
 }
