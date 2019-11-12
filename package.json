@@ -21,6 +21,7 @@
       "twixt",
       "griddle"
     ],
+    "supportsSound": true,
     "simulation": true
   },
   "eslintConfig": {
