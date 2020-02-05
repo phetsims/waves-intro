@@ -1,5 +1,5 @@
 {
-  "comment": "# waves-intro 1.1.0-dev.12 Tue Feb 04 2020 09:06:29 GMT-0700 (Mountain Standard Time)",
+  "comment": "# waves-intro 1.1.0-dev.13 Wed Feb 05 2020 08:20:06 GMT-0700 (Mountain Standard Time)",
   "assert": {
     "sha": "a99a9ce9ee0774bf3ef509bf3e31ca7383f67478",
     "branch": "master"
@@ -13,11 +13,11 @@
     "branch": "master"
   },
   "chipper": {
-    "sha": "2dc0bdf44a9a8449c86793bad57691d5b3207c1f",
+    "sha": "8f85027dfe36ff44dcc800df048ee0594248000a",
     "branch": "master"
   },
   "dot": {
-    "sha": "8c661a7212b512331091c8bdc2a4b8fa94b8b229",
+    "sha": "207e33f8a3c758f9032136276339511c0374548e",
     "branch": "master"
   },
   "griddle": {
@@ -37,11 +37,11 @@
     "branch": "master"
   },
   "phet-io": {
-    "sha": "e4e968340172ea4de082125d6d2511ac1d6bc86c",
+    "sha": "98214a6f12670b2978604a1fc17d3057ad2033a8",
     "branch": "master"
   },
   "phet-io-wrappers": {
-    "sha": "7bf9778a20365b51a6ec60da04b6ed716d9abf93",
+    "sha": "84af24baa14f718cd3b2754c27bfdffff20f045a",
     "branch": "master"
   },
   "phetcommon": {
@@ -49,7 +49,7 @@
     "branch": "master"
   },
   "phetmarks": {
-    "sha": "d5c4e6e75019d934a57f48e7b8d524b735f758a1",
+    "sha": "9c99bcd5f79ca742e617521a997c25cdb052d481",
     "branch": "master"
   },
   "query-string-machine": {
@@ -69,7 +69,7 @@
     "branch": "master"
   },
   "sun": {
-    "sha": "7ac82bbe48de27dc664d8ce47c4112b8e42610d3",
+    "sha": "5f149edba4cc53cbbb9bd3dd04726cfcb0b9eb70",
     "branch": "master"
   },
   "tambo": {
@@ -89,11 +89,11 @@
     "branch": "master"
   },
   "wave-interference": {
-    "sha": "b0dc7cded4ae4cd177f4ceedb1b1ee2026cd8647",
+    "sha": "5a5c110a4688fe0d95c76daf7d2e9cdae0b45969",
     "branch": "master"
   },
   "waves-intro": {
-    "sha": "cd8395a2014995b1bdb5337e7a7dd0db70c8ada3",
+    "sha": "a4a82c52743e8cd2bedef95c283d935f9bda9a38",
     "branch": "master"
   }
 }
