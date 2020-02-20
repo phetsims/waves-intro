@@ -15,12 +15,13 @@ define( require => {
   const platform = require( 'PHET_CORE/platform' );
   const Sim = require( 'JOIST/Sim' );
   const SimLauncher = require( 'JOIST/SimLauncher' );
+  const soundManager = require( 'TAMBO/soundManager' );
 
   // strings
-  const wavesIntroTitleString = require( 'string!WAVES_INTRO/waves-intro.title' );
-  const waterString = require( 'string!WAVES_INTRO/water' );
-  const soundString = require( 'string!WAVES_INTRO/sound' );
   const lightString = require( 'string!WAVES_INTRO/light' );
+  const soundString = require( 'string!WAVES_INTRO/sound' );
+  const waterString = require( 'string!WAVES_INTRO/water' );
+  const wavesIntroTitleString = require( 'string!WAVES_INTRO/waves-intro.title' );
 
   // images
   const lightScreenIcon = require( 'image!WAVES_INTRO/light_screen_icon.png' );
@@ -74,7 +75,10 @@ define( require => {
         supportsSound: true
       } )
     ];
+
     const sim = new Sim( wavesIntroTitleString, screens, simOptions );
     sim.start();
+
+    // soundManager.setOutputLevelForCategory( 'user-interface', 1.0 );
   } );
 } );
