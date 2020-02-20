@@ -79,6 +79,7 @@ define( require => {
     const sim = new Sim( wavesIntroTitleString, screens, simOptions );
     sim.start();
 
-    // soundManager.setOutputLevelForCategory( 'user-interface', 1.0 );
+    // Must be done after sound manager initialized
+    soundManager.setOutputLevelForCategory( 'user-interface', 0.15 );
   } );
 } );
