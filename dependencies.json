@@ -1,19 +1,19 @@
 {
-  "comment": "# waves-intro 1.1.0-dev.14 Wed Feb 19 2020 12:14:15 GMT-0700 (Mountain Standard Time)",
+  "comment": "# waves-intro 1.1.0-dev.15 Thu Feb 20 2020 14:25:43 GMT-0700 (Mountain Standard Time)",
   "assert": {
     "sha": "a99a9ce9ee0774bf3ef509bf3e31ca7383f67478",
     "branch": "master"
   },
   "axon": {
-    "sha": "22ecfe7c4e2c795cb70de077a1b74f717a3bc664",
+    "sha": "67e36834c050f5e43132a6eae8d190e3ecdbe23d",
     "branch": "master"
   },
   "brand": {
-    "sha": "20315d6830993476dd1d693ce2e526282a472ed9",
+    "sha": "75f1b9c7d123307f1dc46bca3a3ade5b2a712609",
     "branch": "master"
   },
   "chipper": {
-    "sha": "5cf224f5106235ee30fb675dbf8a9f3bcacc86ee",
+    "sha": "27a13b0176759b575e36e301fd05532c1139e8d5",
     "branch": "master"
   },
   "dot": {
@@ -25,7 +25,7 @@
     "branch": "master"
   },
   "joist": {
-    "sha": "5cf9facd4400ddce6ed0316cc54d63ff3b75d41d",
+    "sha": "127c235ba5be2e0c3d2496bb1fe0d2a640ef234f",
     "branch": "master"
   },
   "kite": {
@@ -57,8 +57,8 @@
     "branch": "master"
   },
   "scenery": {
-    "sha": "106b9c9cf4e73b24bfc76ba508aa0fda456577ea",
-    "branch": "master"
+    "sha": "84f1c269915587161f341b290965682cf25fea88",
+    "branch": "dynamic-layout"
   },
   "scenery-phet": {
     "sha": "acd66a2592b73bcee522e04a1d3b8026ed100908",
@@ -69,19 +69,19 @@
     "branch": "master"
   },
   "studio": {
-    "sha": "06043f89ecd883843b0ccabbacdd15bc82541b6b",
+    "sha": "008a6026f30e4f20118366a3f5a4bc3832a5e09e",
     "branch": "master"
   },
   "sun": {
-    "sha": "bcdfdce2c4926cbd07129223054f881af31e1940",
+    "sha": "bb9b0146257e1e022044a66024e3bc7e3e9a52f5",
     "branch": "master"
   },
   "tambo": {
-    "sha": "f632542eebc300c58677361582fccd040376d495",
+    "sha": "78cb7912a708c196f3742ee23ece08dfc88e8785",
     "branch": "master"
   },
   "tandem": {
-    "sha": "456c499713d7896c610aec401c7a2b0b1bc6272f",
+    "sha": "0e04b56728caea2cacb625aa84b5ca29d7476a73",
     "branch": "master"
   },
   "twixt": {
@@ -93,11 +93,11 @@
     "branch": "master"
   },
   "wave-interference": {
-    "sha": "bd737c9a6f59c9e27077a2274b3bede82b774960",
+    "sha": "6067e34e7a0a1342642657508f67d67ca825cd01",
     "branch": "master"
   },
   "waves-intro": {
-    "sha": "198afc4af661a393d381f34814a2dd5806238b8d",
+    "sha": "2cb0fb30202c22edff92085973ccdca9c08357d1",
     "branch": "master"
   }
 }
