@@ -1,5 +1,5 @@
 {
-  "comment": "# waves-intro 1.0.1 Mon Oct 28 2019 15:09:08 GMT-0600 (Mountain Daylight Time)",
+  "comment": "# waves-intro 1.0.1 Mon Feb 24 2020 13:06:22 GMT-0700 (Mountain Standard Time)",
   "assert": {
     "sha": "201c50a840e082354b013f4ab9e9d45006f98cfe",
     "branch": "HEAD"
@@ -85,11 +85,11 @@
     "branch": "HEAD"
   },
   "wave-interference": {
-    "sha": "80b4b55d55fbabd5a6815e632205992d4210e958",
-    "branch": "HEAD"
+    "sha": "40255630052c54f39b4c0a27e7a56db3b11fea06",
+    "branch": "waves-intro-1.0"
   },
   "waves-intro": {
-    "sha": "2cc99e5f0c7a08d4592604e3e30c31e8eca42392",
+    "sha": "2b9d8950fd17ed3fae358c85eaff602f49d04606",
     "branch": "1.0"
   }
 }
