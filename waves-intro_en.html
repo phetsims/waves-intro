@@ -7,7 +7,7 @@
   <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1"/>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="phet-sim-level" content="development">
-  
+
   <title>waves-intro</title>
 </head>
 
@@ -19,35 +19,72 @@
 
   window.phet = window.phet || {};
   window.phet.chipper = window.phet.chipper || {};
-  window.phet.chipper.packageObject = {
-    "name": "waves-intro",
-    "version": "1.1.0-dev.15",
-    "license": "GPL-3.0",
-    "repository": { "type": "git", "url": "https://github.com/phetsims/waves-intro.git" },
-    "devDependencies": { "grunt": "~1.0.0" },
-    "phet": {
-      "requirejsNamespace": "WAVES_INTRO",
-      "runnable": true,
-      "supportedBrands": [ "phet", "adapted-from-phet" ],
-      "phetLibs": [ "wave-interference", "twixt", "griddle" ],
-      "supportsSound": true,
-      "simulation": true
-    },
-    "eslintConfig": { "extends": "../chipper/eslint/sim_es6_eslintrc.js" }
-  };
-  window.phet.chipper.stringRepos = [ { "repo": "griddle", "requirejsNamespace": "GRIDDLE" }, {
-    "repo": "joist",
-    "requirejsNamespace": "JOIST"
-  }, { "repo": "scenery-phet", "requirejsNamespace": "SCENERY_PHET" }, {
-    "repo": "sun",
-    "requirejsNamespace": "SUN"
-  }, { "repo": "tambo", "requirejsNamespace": "TAMBO" }, {
-    "repo": "twixt",
-    "requirejsNamespace": "TWIXT"
-  }, { "repo": "wave-interference", "requirejsNamespace": "WAVE_INTERFERENCE" }, {
-    "repo": "waves-intro",
-    "requirejsNamespace": "WAVES_INTRO"
-  } ];
+  window.phet.chipper.packageObject =
+    {
+      "name": "waves-intro",
+      "version": "1.1.0-dev.15",
+      "license": "GPL-3.0",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/phetsims/waves-intro.git"
+      },
+      "devDependencies": {
+        "grunt": "~1.0.0"
+      },
+      "phet": {
+        "requirejsNamespace": "WAVES_INTRO",
+        "runnable": true,
+        "supportedBrands": [
+          "phet",
+          "adapted-from-phet"
+        ],
+        "phetLibs": [
+          "wave-interference",
+          "twixt",
+          "griddle"
+        ],
+        "supportsSound": true,
+        "simulation": true
+      },
+      "eslintConfig": {
+        "extends": "../chipper/eslint/sim_es6_eslintrc.js"
+      }
+    };
+  window.phet.chipper.stringRepos =
+    [
+      {
+        "repo": "griddle",
+        "requirejsNamespace": "GRIDDLE"
+      },
+      {
+        "repo": "joist",
+        "requirejsNamespace": "JOIST"
+      },
+      {
+        "repo": "scenery-phet",
+        "requirejsNamespace": "SCENERY_PHET"
+      },
+      {
+        "repo": "sun",
+        "requirejsNamespace": "SUN"
+      },
+      {
+        "repo": "tambo",
+        "requirejsNamespace": "TAMBO"
+      },
+      {
+        "repo": "twixt",
+        "requirejsNamespace": "TWIXT"
+      },
+      {
+        "repo": "wave-interference",
+        "requirejsNamespace": "WAVE_INTERFERENCE"
+      },
+      {
+        "repo": "waves-intro",
+        "requirejsNamespace": "WAVES_INTRO"
+      }
+    ];
 
   // Identify the brand (assume generated brand if not provided with query parameters)
   const brandMatch = location.search.match( /brand=([^&]+)/ );
