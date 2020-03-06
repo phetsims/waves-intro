@@ -11,7 +11,6 @@ import SimLauncher from '../../joist/js/SimLauncher.js';
 import platform from '../../phet-core/js/platform.js';
 import AlignGroup from '../../scenery/js/nodes/AlignGroup.js';
 import Image from '../../scenery/js/nodes/Image.js';
-import soundManager from '../../tambo/js/soundManager.js';
 import MediumScreen from '../../wave-interference/js/common/MediumScreen.js';
 import lightScreenIcon from '../images/light_screen_icon_png.js';
 import soundScreenIcon from '../images/sound_screen_icon_png.js';
