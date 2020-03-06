@@ -74,7 +74,4 @@ SimLauncher.launch( () => {
 
   const sim = new Sim( wavesIntroTitleString, screens, simOptions );
   sim.start();
-
-  // Must be done after sound manager initialized
-  soundManager.setOutputLevelForCategory( 'user-interface', 0.15 );
 } );
