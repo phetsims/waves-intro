@@ -22,7 +22,6 @@ const soundString = wavesIntroStrings.sound;
 const waterString = wavesIntroStrings.water;
 const wavesIntroTitleString = wavesIntroStrings[ 'waves-intro' ].title;
 
-
 const simOptions = {
   credits: {
     leadDesign: 'Amy Rouinfar, Noah Podolefsky',
