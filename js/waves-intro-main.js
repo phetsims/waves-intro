@@ -6,6 +6,7 @@
  * @author Sam Reid (PhET Interactive Simulations)
  */
 
+import NumberProperty from '../../axon/js/NumberProperty.js';
 import Sim from '../../joist/js/Sim.js';
 import SimLauncher from '../../joist/js/SimLauncher.js';
 import platform from '../../phet-core/js/platform.js';
@@ -15,12 +16,16 @@ import MediumScreen from '../../wave-interference/js/common/MediumScreen.js';
 import lightScreenIcon from '../images/light_screen_icon_png.js';
 import soundScreenIcon from '../images/sound_screen_icon_png.js';
 import waterScreenIcon from '../images/water_screen_icon_png.js';
+import FaucetButtonSoundSelector from './FaucetButtonSoundSelector.js';
 import wavesIntroStrings from './waves-intro-strings.js';
 
 const lightString = wavesIntroStrings.light;
 const soundString = wavesIntroStrings.sound;
 const waterString = wavesIntroStrings.water;
 const wavesIntroTitleString = wavesIntroStrings[ 'waves-intro' ].title;
+
+// global object for selecting button sounds, this is temporary, see https://github.com/phetsims/wave-interference/issues/480
+window.phet.wavesIntro.buttonSoundSelectionProperty = new NumberProperty( 0 );
 
 const simOptions = {
   credits: {
@@ -33,7 +38,8 @@ const simOptions = {
             '1548924. Any opinions, findings, and conclusions or recommendations expressed in this material are those ' +
             'of the author(s) and do not necessarily reflect the views of the National Science Foundation.'
   },
-  webgl: platform.mobileSafari
+  webgl: platform.mobileSafari,
+  createOptionsDialogContent: () => new FaucetButtonSoundSelector( window.phet.wavesIntro.buttonSoundSelectionProperty )
 };
 
 // launch the sim - beware that scenery Image nodes created outside of SimLauncher.launch() will have zero bounds
