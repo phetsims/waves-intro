@@ -17,7 +17,7 @@ import lightScreenIcon from '../images/light_screen_icon_png.js';
 import soundScreenIcon from '../images/sound_screen_icon_png.js';
 import waterScreenIcon from '../images/water_screen_icon_png.js';
 import FaucetButtonSoundSelector from './FaucetButtonSoundSelector.js';
-import wavesIntroStrings from './waves-intro-strings.js';
+import wavesIntroStrings from './wavesIntroStrings.js';
 
 const lightString = wavesIntroStrings.light;
 const soundString = wavesIntroStrings.sound;
