@@ -7,7 +7,7 @@
  */
 
 import Sim from '../../joist/js/Sim.js';
-import SimLauncher from '../../joist/js/SimLauncher.js';
+import simLauncher from '../../joist/js/simLauncher.js';
 import platform from '../../phet-core/js/platform.js';
 import AlignGroup from '../../scenery/js/nodes/AlignGroup.js';
 import Image from '../../scenery/js/nodes/Image.js';
@@ -36,9 +36,9 @@ const simOptions = {
   webgl: platform.mobileSafari
 };
 
-// launch the sim - beware that scenery Image nodes created outside of SimLauncher.launch() will have zero bounds
+// launch the sim - beware that scenery Image nodes created outside of simLauncher.launch() will have zero bounds
 // until the images are fully loaded, see https://github.com/phetsims/coulombs-law/issues/70
-SimLauncher.launch( () => {
+simLauncher.launch( () => {
 
   // Panels on the right side of the lattice (in the first three screens) have matching widths, within each screen and
   // across screens.
