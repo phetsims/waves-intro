@@ -6,6 +6,7 @@
  * @author Sam Reid (PhET Interactive Simulations)
  */
 
+import ScreenIcon from '../../joist/js/ScreenIcon.js';
 import Sim from '../../joist/js/Sim.js';
 import simLauncher from '../../joist/js/simLauncher.js';
 import platform from '../../phet-core/js/platform.js';
@@ -52,20 +53,29 @@ simLauncher.launch( () => {
     new MediumScreen( alignGroup, {
       scenes: [ 'waterScene' ],
       name: waterString,
-      homeScreenIcon: new Image( waterScreenIcon ),
+      homeScreenIcon: new ScreenIcon( new Image( waterScreenIcon ), {
+        maxIconWidthProportion: 1,
+        maxIconHeightProportion: 1
+      } ),
       supportsSound: true
     } ),
     new MediumScreen( alignGroup, {
       scenes: [ 'soundScene' ],
       name: soundString,
-      homeScreenIcon: new Image( soundScreenIcon ),
+      homeScreenIcon: new ScreenIcon( new Image( soundScreenIcon ), {
+        maxIconWidthProportion: 1,
+        maxIconHeightProportion: 1
+      } ),
       showPlaySoundButton: true,
       supportsSound: true
     } ),
     new MediumScreen( alignGroup, {
       scenes: [ 'lightScene' ],
       name: lightString,
-      homeScreenIcon: new Image( lightScreenIcon ),
+      homeScreenIcon: new ScreenIcon( new Image( lightScreenIcon ), {
+        maxIconWidthProportion: 1,
+        maxIconHeightProportion: 1
+      } ),
       supportsSound: true
     } )
   ];
