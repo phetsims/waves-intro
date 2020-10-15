@@ -10,7 +10,6 @@ import ScreenIcon from '../../joist/js/ScreenIcon.js';
 import Sim from '../../joist/js/Sim.js';
 import simLauncher from '../../joist/js/simLauncher.js';
 import platform from '../../phet-core/js/platform.js';
-import GeneralKeyboardHelpSection from '../../scenery-phet/js/keyboard/help/GeneralKeyboardHelpSection.js';
 import AlignGroup from '../../scenery/js/nodes/AlignGroup.js';
 import Image from '../../scenery/js/nodes/Image.js';
 import MediumScreen from '../../wave-interference/js/common/MediumScreen.js';
@@ -35,11 +34,8 @@ const simOptions = {
             '1548924. Any opinions, findings, and conclusions or recommendations expressed in this material are those ' +
             'of the author(s) and do not necessarily reflect the views of the National Science Foundation.'
   },
-  webgl: platform.mobileSafari,
-  hasKeyboardHelpContent: true
+  webgl: platform.mobileSafari
 };
-
-const keyboardHelpNode = new GeneralKeyboardHelpSection();
 
 // launch the sim - beware that scenery Image nodes created outside of simLauncher.launch() will have zero bounds
 // until the images are fully loaded, see https://github.com/phetsims/coulombs-law/issues/70
@@ -61,8 +57,7 @@ simLauncher.launch( () => {
         maxIconWidthProportion: 1,
         maxIconHeightProportion: 1
       } ),
-      supportsSound: true,
-      keyboardHelpNode: keyboardHelpNode
+      supportsSound: true
     } ),
     new MediumScreen( alignGroup, {
       scenes: [ 'soundScene' ],
@@ -72,8 +67,7 @@ simLauncher.launch( () => {
         maxIconHeightProportion: 1
       } ),
       showPlaySoundButton: true,
-      supportsSound: true,
-      keyboardHelpNode: keyboardHelpNode
+      supportsSound: true
     } ),
     new MediumScreen( alignGroup, {
       scenes: [ 'lightScene' ],
@@ -82,8 +76,7 @@ simLauncher.launch( () => {
         maxIconWidthProportion: 1,
         maxIconHeightProportion: 1
       } ),
-      supportsSound: true,
-      keyboardHelpNode: keyboardHelpNode
+      supportsSound: true
     } )
   ];
 
