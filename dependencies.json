@@ -1,5 +1,5 @@
 {
-  "comment": "# waves-intro 1.1.0-rc.2 Tue Dec 08 2020 14:04:22 GMT-0700 (Mountain Standard Time)",
+  "comment": "# waves-intro 1.1.0-rc.3 Tue Dec 08 2020 15:46:39 GMT-0700 (Mountain Standard Time)",
   "assert": {
     "sha": "3df8c5ff9a465b031f84195a90bbb7e1be10a14d",
     "branch": "HEAD"
@@ -7,6 +7,10 @@
   "axon": {
     "sha": "d0c6a5aed5c0715c84b7462131f96e2abbb28d2b",
     "branch": "HEAD"
+  },
+  "bamboo": {
+    "sha": "5dd7b87492a9adac1add61829ca484c4d8e41568",
+    "branch": "master"
   },
   "brand": {
     "sha": "e88138434dccb5a17137015eb87eb8aa6946e894",
@@ -101,7 +105,7 @@
     "branch": "HEAD"
   },
   "waves-intro": {
-    "sha": "3e47c3f4ce261a918ded1ddadfbbb22eb832fc11",
+    "sha": "73329403a03975ef0cd5a2a7556c6b4157bfcb19",
     "branch": "1.1"
   }
 }
