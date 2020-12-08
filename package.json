@@ -19,7 +19,8 @@
     "phetLibs": [
       "wave-interference",
       "twixt",
-      "griddle"
+      "griddle",
+      "bamboo"
     ],
     "supportsSound": true,
     "supportsInteractiveDescriptions": true,
