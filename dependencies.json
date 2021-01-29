@@ -1,5 +1,5 @@
 {
-  "comment": "# waves-intro 1.1.0-rc.3 Tue Dec 08 2020 15:46:39 GMT-0700 (Mountain Standard Time)",
+  "comment": "# waves-intro 1.1.0-rc.3 Fri Jan 29 2021 16:56:04 GMT-0700 (Mountain Standard Time)",
   "assert": {
     "sha": "3df8c5ff9a465b031f84195a90bbb7e1be10a14d",
     "branch": "HEAD"
@@ -10,7 +10,7 @@
   },
   "bamboo": {
     "sha": "5dd7b87492a9adac1add61829ca484c4d8e41568",
-    "branch": "master"
+    "branch": "HEAD"
   },
   "brand": {
     "sha": "e88138434dccb5a17137015eb87eb8aa6946e894",
@@ -25,8 +25,8 @@
     "branch": "HEAD"
   },
   "griddle": {
-    "sha": "70cd2e8d25b97840c93986ab3171952b9262665e",
-    "branch": "HEAD"
+    "sha": "3b767909b3cd411f954e9fbc2a38e012550b4fc8",
+    "branch": "waves-intro-1.1"
   },
   "joist": {
     "sha": "e0b018e279d3011821f909d1dc0f362f7a573454",
@@ -101,11 +101,11 @@
     "branch": "HEAD"
   },
   "wave-interference": {
-    "sha": "4df048f93ecac623cf06871136d378d87efcecff",
-    "branch": "HEAD"
+    "sha": "1dcf4cbd65808c06cd31724ca67920b3ca7c89d7",
+    "branch": "waves-intro-1.1"
   },
   "waves-intro": {
-    "sha": "73329403a03975ef0cd5a2a7556c6b4157bfcb19",
+    "sha": "c3b6bddb8b159f2a2d3ae5df58f931d56a152e1a",
     "branch": "1.1"
   }
 }
