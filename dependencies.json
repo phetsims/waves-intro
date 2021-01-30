@@ -1,5 +1,5 @@
 {
-  "comment": "# waves-intro 1.1.0-rc.3 Fri Jan 29 2021 16:56:04 GMT-0700 (Mountain Standard Time)",
+  "comment": "# waves-intro 1.1.0-rc.4 Fri Jan 29 2021 17:01:13 GMT-0700 (Mountain Standard Time)",
   "assert": {
     "sha": "3df8c5ff9a465b031f84195a90bbb7e1be10a14d",
     "branch": "HEAD"
@@ -26,7 +26,7 @@
   },
   "griddle": {
     "sha": "3b767909b3cd411f954e9fbc2a38e012550b4fc8",
-    "branch": "waves-intro-1.1"
+    "branch": "HEAD"
   },
   "joist": {
     "sha": "e0b018e279d3011821f909d1dc0f362f7a573454",
@@ -102,10 +102,10 @@
   },
   "wave-interference": {
     "sha": "1dcf4cbd65808c06cd31724ca67920b3ca7c89d7",
-    "branch": "waves-intro-1.1"
+    "branch": "HEAD"
   },
   "waves-intro": {
-    "sha": "c3b6bddb8b159f2a2d3ae5df58f931d56a152e1a",
+    "sha": "a5f4d51d1abad586e96b83b7336187894a7ace66",
     "branch": "1.1"
   }
 }
