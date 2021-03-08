@@ -1,5 +1,5 @@
 {
-  "comment": "# waves-intro 1.1.0-rc.4 Fri Feb 12 2021 00:21:40 GMT-0500 (Eastern Standard Time)",
+  "comment": "# waves-intro 1.1.0-rc.4 Mon Mar 08 2021 16:11:11 GMT-0500 (Eastern Standard Time)",
   "assert": {
     "sha": "3df8c5ff9a465b031f84195a90bbb7e1be10a14d",
     "branch": "HEAD"
@@ -57,8 +57,8 @@
     "branch": "HEAD"
   },
   "phetmarks": {
-    "sha": "43778190c51ff193bc88c414d34959d20c4fc2a9",
-    "branch": "HEAD"
+    "sha": "a9ba7a03d537e174108449dca85ce398117b53b2",
+    "branch": "waves-intro-1.1"
   },
   "query-string-machine": {
     "sha": "aac2d124a39b0019ff139d1221061dfbbedfd330",
@@ -66,7 +66,7 @@
   },
   "scenery": {
     "sha": "2e83189a7155677f784453b39c2ea0b483424ac4",
-    "branch": "waves-intro-1.1"
+    "branch": "HEAD"
   },
   "scenery-phet": {
     "sha": "41be6264a07b4ea43d585c44348ae4b250728d99",
@@ -105,7 +105,7 @@
     "branch": "HEAD"
   },
   "waves-intro": {
-    "sha": "0ebdabde0732925137c3913fc5cc560ac3f7037b",
+    "sha": "0a108cfa1840c759421e1d3db746ea2382c7e339",
     "branch": "1.1"
   }
 }
