@@ -1,5 +1,5 @@
 {
-  "comment": "# waves-intro 1.1.0-rc.4 Mon Mar 08 2021 16:11:11 GMT-0500 (Eastern Standard Time)",
+  "comment": "# waves-intro 1.1.0 Mon Mar 22 2021 09:46:57 GMT-0600 (Mountain Daylight Time)",
   "assert": {
     "sha": "3df8c5ff9a465b031f84195a90bbb7e1be10a14d",
     "branch": "HEAD"
@@ -58,7 +58,7 @@
   },
   "phetmarks": {
     "sha": "a9ba7a03d537e174108449dca85ce398117b53b2",
-    "branch": "waves-intro-1.1"
+    "branch": "HEAD"
   },
   "query-string-machine": {
     "sha": "aac2d124a39b0019ff139d1221061dfbbedfd330",
@@ -105,7 +105,7 @@
     "branch": "HEAD"
   },
   "waves-intro": {
-    "sha": "0a108cfa1840c759421e1d3db746ea2382c7e339",
+    "sha": "0d49adca9a8a76691ef3c4574e1afa802440d83b",
     "branch": "1.1"
   }
 }
