@@ -23,7 +23,9 @@
       "bamboo"
     ],
     "supportsSound": true,
-    "supportsInteractiveDescription": true,
+    "features":{
+      "supportsInteractiveDescription": true
+    },
     "simulation": true
   },
   "eslintConfig": {
