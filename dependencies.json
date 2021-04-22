@@ -1,5 +1,5 @@
 {
-  "comment": "# waves-intro 1.1.0 Mon Mar 22 2021 09:46:57 GMT-0600 (Mountain Daylight Time)",
+  "comment": "# waves-intro 1.1.0 Thu Apr 22 2021 16:25:36 GMT-0600 (Mountain Daylight Time)",
   "assert": {
     "sha": "3df8c5ff9a465b031f84195a90bbb7e1be10a14d",
     "branch": "HEAD"
@@ -65,8 +65,8 @@
     "branch": "HEAD"
   },
   "scenery": {
-    "sha": "2e83189a7155677f784453b39c2ea0b483424ac4",
-    "branch": "HEAD"
+    "sha": "c4155aea4044811bf1cfcba9dfbdd2869cf47f6b",
+    "branch": "waves-intro-1.1"
   },
   "scenery-phet": {
     "sha": "41be6264a07b4ea43d585c44348ae4b250728d99",
@@ -105,7 +105,7 @@
     "branch": "HEAD"
   },
   "waves-intro": {
-    "sha": "0d49adca9a8a76691ef3c4574e1afa802440d83b",
+    "sha": "67bd2304aaf2c8afb93e7372619f216908c74804",
     "branch": "1.1"
   }
 }
