@@ -56,8 +56,7 @@ simLauncher.launch( () => {
       homeScreenIcon: new ScreenIcon( new Image( waterScreenIcon ), {
         maxIconWidthProportion: 1,
         maxIconHeightProportion: 1
-      } ),
-      supportsSound: true
+      } )
     } ),
     new MediumScreen( alignGroup, {
       scenes: [ 'soundScene' ],
@@ -66,8 +65,7 @@ simLauncher.launch( () => {
         maxIconWidthProportion: 1,
         maxIconHeightProportion: 1
       } ),
-      showPlaySoundButton: true,
-      supportsSound: true
+      showPlaySoundButton: true
     } ),
     new MediumScreen( alignGroup, {
       scenes: [ 'lightScene' ],
@@ -75,8 +73,7 @@ simLauncher.launch( () => {
       homeScreenIcon: new ScreenIcon( new Image( lightScreenIcon ), {
         maxIconWidthProportion: 1,
         maxIconHeightProportion: 1
-      } ),
-      supportsSound: true
+      } )
     } )
   ];
 
