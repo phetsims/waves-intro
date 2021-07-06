@@ -22,7 +22,7 @@
       "griddle",
       "bamboo"
     ],
-    "features":{
+    "features": {
       "supportsSound": true,
       "supportsInteractiveDescription": true
     },
