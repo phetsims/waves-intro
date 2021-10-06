@@ -17,7 +17,7 @@
     "branch": "HEAD"
   },
   "chipper": {
-    "sha": "4f1938bc2e7573d41a252b738a5ca3b244e0b76d",
+    "sha": "13bd5405ded50d10ded76014226fc80d94963dfa",
     "branch": "HEAD"
   },
   "dot": {
@@ -105,7 +105,7 @@
     "branch": "HEAD"
   },
   "waves-intro": {
-    "sha": "c9bc213bd1757cd8f59afc514b4de857ed71ff79",
+    "sha": "c270cee1dd7e8c3a8fa344081cd2e41f7d022aba",
     "branch": "1.1"
   }
 }
