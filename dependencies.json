@@ -29,7 +29,7 @@
     "branch": "HEAD"
   },
   "joist": {
-    "sha": "e0b018e279d3011821f909d1dc0f362f7a573454",
+    "sha": "bb5e41b28515eb13012572db1e3b8f692c5081d6",
     "branch": "HEAD"
   },
   "kite": {
@@ -85,7 +85,7 @@
     "branch": "HEAD"
   },
   "tambo": {
-    "sha": "55c2dcdf7b3d7fb3a3a07828e4d20b311c2b1046",
+    "sha": "a82db9ad5211ef7222683bd3bbc6718fe7e83ee6",
     "branch": "HEAD"
   },
   "tandem": {
@@ -101,7 +101,7 @@
     "branch": "HEAD"
   },
   "wave-interference": {
-    "sha": "1dcf4cbd65808c06cd31724ca67920b3ca7c89d7",
+    "sha": "ed261244f1a618303b26e4d3e6167ccf2fa3f524",
     "branch": "HEAD"
   },
   "waves-intro": {
