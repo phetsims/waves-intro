@@ -3,11 +3,20 @@
 /**
  * Auto-generated from modulify, DO NOT manually modify.
  */
-
+/* eslint-disable */
 import getStringModule from '../../chipper/js/getStringModule.js';
 import wavesIntro from './wavesIntro.js';
 
-const wavesIntroStrings = getStringModule( 'WAVES_INTRO' );
+type StringsType = {
+  'waves-intro': {
+    'title': string
+  },
+  'water': string,
+  'sound': string,
+  'light': string
+};
+
+const wavesIntroStrings = getStringModule( 'WAVES_INTRO' ) as StringsType;
 
 wavesIntro.register( 'wavesIntroStrings', wavesIntroStrings );
 
