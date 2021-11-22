@@ -5,7 +5,7 @@
       "path": "../wave-interference"
     },
     {
-      "path": "../twixt"
+      "path": "../twixt/tsconfig-module.json"
     },
     {
       "path": "../griddle"
