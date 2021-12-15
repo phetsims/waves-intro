@@ -1,5 +1,5 @@
 {
-  "comment": "# waves-intro 1.1.5-rc.1 Tue Dec 14 2021 14:25:19 GMT-0500 (Eastern Standard Time)",
+  "comment": "# waves-intro 1.1.5 Wed Dec 15 2021 16:49:47 GMT-0500 (Eastern Standard Time)",
   "assert": {
     "sha": "3df8c5ff9a465b031f84195a90bbb7e1be10a14d",
     "branch": "HEAD"
@@ -105,7 +105,7 @@
     "branch": "HEAD"
   },
   "waves-intro": {
-    "sha": "80abe35d885fdf69dd0a9be46ca03dced867796f",
+    "sha": "23d635daa13a3f99bd60efd5e9c65d832d984c44",
     "branch": "1.1"
   }
 }
