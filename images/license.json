@@ -1,5 +1,5 @@
 {
-  "light_screen_icon.png": {
+  "lightScreenIcon.png": {
     "text": [
       "Copyright 2019 University of Colorado Boulder"
     ],
@@ -7,7 +7,7 @@
     "license": "contact phethelp@colorado.edu",
     "notes": "created by Amy Rouinfar, see screen_icons.ai"
   },
-  "sound_screen_icon.png": {
+  "soundScreenIcon.png": {
     "text": [
       "Copyright 2019 University of Colorado Boulder"
     ],
@@ -15,7 +15,7 @@
     "license": "contact phethelp@colorado.edu",
     "notes": "created by Amy Rouinfar, see screen_icons.ai"
   },
-  "water_screen_icon.png": {
+  "waterScreenIcon.png": {
     "text": [
       "Copyright 2019 University of Colorado Boulder"
     ],

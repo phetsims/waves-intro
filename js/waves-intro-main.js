@@ -13,9 +13,9 @@ import platform from '../../phet-core/js/platform.js';
 import { AlignGroup } from '../../scenery/js/imports.js';
 import { Image } from '../../scenery/js/imports.js';
 import MediumScreen from '../../wave-interference/js/common/MediumScreen.js';
-import lightScreenIcon from '../images/light_screen_icon_png.js';
-import soundScreenIcon from '../images/sound_screen_icon_png.js';
-import waterScreenIcon from '../images/water_screen_icon_png.js';
+import lightScreenIcon_png from '../images/lightScreenIcon_png.js';
+import soundScreenIcon_png from '../images/soundScreenIcon_png.js';
+import waterScreenIcon_png from '../images/waterScreenIcon_png.js';
 import wavesIntroStrings from './wavesIntroStrings.js';
 
 const lightString = wavesIntroStrings.light;
@@ -53,7 +53,7 @@ simLauncher.launch( () => {
     new MediumScreen( alignGroup, {
       scenes: [ 'waterScene' ],
       name: waterString,
-      homeScreenIcon: new ScreenIcon( new Image( waterScreenIcon ), {
+      homeScreenIcon: new ScreenIcon( new Image( waterScreenIcon_png ), {
         maxIconWidthProportion: 1,
         maxIconHeightProportion: 1
       } )
@@ -61,7 +61,7 @@ simLauncher.launch( () => {
     new MediumScreen( alignGroup, {
       scenes: [ 'soundScene' ],
       name: soundString,
-      homeScreenIcon: new ScreenIcon( new Image( soundScreenIcon ), {
+      homeScreenIcon: new ScreenIcon( new Image( soundScreenIcon_png ), {
         maxIconWidthProportion: 1,
         maxIconHeightProportion: 1
       } ),
@@ -70,7 +70,7 @@ simLauncher.launch( () => {
     new MediumScreen( alignGroup, {
       scenes: [ 'lightScene' ],
       name: lightString,
-      homeScreenIcon: new ScreenIcon( new Image( lightScreenIcon ), {
+      homeScreenIcon: new ScreenIcon( new Image( lightScreenIcon_png ), {
         maxIconWidthProportion: 1,
         maxIconHeightProportion: 1
       } )
