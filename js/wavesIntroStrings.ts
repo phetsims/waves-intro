@@ -9,11 +9,11 @@ import wavesIntro from './wavesIntro.js';
 
 type StringsType = {
   'waves-intro': {
-    'title': string
-  },
-  'water': string,
-  'sound': string,
-  'light': string
+    'title': string;
+  };
+  'water': string;
+  'sound': string;
+  'light': string;
 };
 
 const wavesIntroStrings = getStringModule( 'WAVES_INTRO' ) as StringsType;
