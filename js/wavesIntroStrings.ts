@@ -11,14 +11,14 @@ import wavesIntro from './wavesIntro.js';
 type StringsType = {
   'waves-intro': {
     'title': string;
-    'titleProperty': TReadOnlyProperty<string>;
+    'titleStringProperty': TReadOnlyProperty<string>;
   };
   'water': string;
-  'waterProperty': TReadOnlyProperty<string>;
+  'waterStringProperty': TReadOnlyProperty<string>;
   'sound': string;
-  'soundProperty': TReadOnlyProperty<string>;
+  'soundStringProperty': TReadOnlyProperty<string>;
   'light': string;
-  'lightProperty': TReadOnlyProperty<string>;
+  'lightStringProperty': TReadOnlyProperty<string>;
 };
 
 const wavesIntroStrings = getStringModule( 'WAVES_INTRO' ) as StringsType;
