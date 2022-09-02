@@ -20,7 +20,7 @@ import wavesIntroStrings from './wavesIntroStrings.js';
 const lightString = wavesIntroStrings.light;
 const soundString = wavesIntroStrings.sound;
 const waterString = wavesIntroStrings.water;
-const wavesIntroTitleString = wavesIntroStrings[ 'waves-intro' ].title;
+const wavesIntroTitleStringProperty = wavesIntroStrings[ 'waves-intro' ].titleStringProperty;
 
 const simOptions = {
   credits: {
@@ -76,6 +76,6 @@ simLauncher.launch( () => {
     } )
   ];
 
-  const sim = new Sim( wavesIntroTitleString, screens, simOptions );
+  const sim = new Sim( wavesIntroTitleStringProperty, screens, simOptions );
   sim.start();
 } );
