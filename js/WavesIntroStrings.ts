@@ -21,8 +21,8 @@ type StringsType = {
   'lightStringProperty': TReadOnlyProperty<string>;
 };
 
-const wavesIntroStrings = getStringModule( 'WAVES_INTRO' ) as StringsType;
+const WavesIntroStrings = getStringModule( 'WAVES_INTRO' ) as StringsType;
 
-wavesIntro.register( 'wavesIntroStrings', wavesIntroStrings );
+wavesIntro.register( 'WavesIntroStrings', WavesIntroStrings );
 
-export default wavesIntroStrings;
+export default WavesIntroStrings;

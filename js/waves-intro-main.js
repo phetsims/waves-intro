@@ -15,12 +15,12 @@ import MediumScreen from '../../wave-interference/js/common/MediumScreen.js';
 import lightScreenIcon_png from '../images/lightScreenIcon_png.js';
 import soundScreenIcon_png from '../images/soundScreenIcon_png.js';
 import waterScreenIcon_png from '../images/waterScreenIcon_png.js';
-import wavesIntroStrings from './wavesIntroStrings.js';
+import WavesIntroStrings from './WavesIntroStrings.js';
 
-const lightString = wavesIntroStrings.light;
-const soundString = wavesIntroStrings.sound;
-const waterString = wavesIntroStrings.water;
-const wavesIntroTitleStringProperty = wavesIntroStrings[ 'waves-intro' ].titleStringProperty;
+const lightString = WavesIntroStrings.light;
+const soundString = WavesIntroStrings.sound;
+const waterString = WavesIntroStrings.water;
+const wavesIntroTitleStringProperty = WavesIntroStrings[ 'waves-intro' ].titleStringProperty;
 
 const simOptions = {
   credits: {
