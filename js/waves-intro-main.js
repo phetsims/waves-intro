@@ -17,9 +17,6 @@ import soundScreenIcon_png from '../images/soundScreenIcon_png.js';
 import waterScreenIcon_png from '../images/waterScreenIcon_png.js';
 import WavesIntroStrings from './WavesIntroStrings.js';
 
-const lightString = WavesIntroStrings.light;
-const soundString = WavesIntroStrings.sound;
-const waterString = WavesIntroStrings.water;
 const wavesIntroTitleStringProperty = WavesIntroStrings[ 'waves-intro' ].titleStringProperty;
 
 const simOptions = {
@@ -51,7 +48,7 @@ simLauncher.launch( () => {
   const screens = [
     new MediumScreen( alignGroup, {
       scenes: [ 'waterScene' ],
-      name: waterString,
+      name: WavesIntroStrings.waterStringProperty,
       homeScreenIcon: new ScreenIcon( new Image( waterScreenIcon_png ), {
         maxIconWidthProportion: 1,
         maxIconHeightProportion: 1
@@ -59,7 +56,7 @@ simLauncher.launch( () => {
     } ),
     new MediumScreen( alignGroup, {
       scenes: [ 'soundScene' ],
-      name: soundString,
+      name: WavesIntroStrings.soundStringProperty,
       homeScreenIcon: new ScreenIcon( new Image( soundScreenIcon_png ), {
         maxIconWidthProportion: 1,
         maxIconHeightProportion: 1
@@ -68,7 +65,7 @@ simLauncher.launch( () => {
     } ),
     new MediumScreen( alignGroup, {
       scenes: [ 'lightScene' ],
-      name: lightString,
+      name: WavesIntroStrings.lightStringProperty,
       homeScreenIcon: new ScreenIcon( new Image( lightScreenIcon_png ), {
         maxIconWidthProportion: 1,
         maxIconHeightProportion: 1
