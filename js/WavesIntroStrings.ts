@@ -5,20 +5,20 @@
  */
 /* eslint-disable */
 import getStringModule from '../../chipper/js/getStringModule.js';
-import TReadOnlyProperty from '../../axon/js/TReadOnlyProperty.js';
+import LinkableProperty from '../../axon/js/LinkableProperty.js';
 import wavesIntro from './wavesIntro.js';
 
 type StringsType = {
   'waves-intro': {
     'title': string;
-    'titleStringProperty': TReadOnlyProperty<string>;
+    'titleStringProperty': LinkableProperty<string>;
   };
   'water': string;
-  'waterStringProperty': TReadOnlyProperty<string>;
+  'waterStringProperty': LinkableProperty<string>;
   'sound': string;
-  'soundStringProperty': TReadOnlyProperty<string>;
+  'soundStringProperty': LinkableProperty<string>;
   'light': string;
-  'lightStringProperty': TReadOnlyProperty<string>;
+  'lightStringProperty': LinkableProperty<string>;
 };
 
 const WavesIntroStrings = getStringModule( 'WAVES_INTRO' ) as StringsType;
