@@ -37,7 +37,7 @@
     "branch": "HEAD"
   },
   "phet-core": {
-    "sha": "adad9ff838174d9abb614791f26f5ddee03b1a5b",
+    "sha": "311a4142155655256b5c91a729fdf01fa0979f82",
     "branch": "HEAD"
   },
   "phet-io": {
@@ -105,7 +105,7 @@
     "branch": "HEAD"
   },
   "waves-intro": {
-    "sha": "eec10634ecdbe5422b6a369db8f35699d9a45ac7",
+    "sha": "6a8330d5442240dc6259abf6cbdcda900e69cadc",
     "branch": "1.1"
   }
 }
