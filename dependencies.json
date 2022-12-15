@@ -1,5 +1,5 @@
 {
-  "comment": "# waves-intro 1.1.8-rc.1 Wed Dec 14 2022 22:40:05 GMT-0700 (Mountain Standard Time)",
+  "comment": "# waves-intro 1.1.8 Wed Dec 14 2022 22:41:09 GMT-0700 (Mountain Standard Time)",
   "assert": {
     "sha": "3df8c5ff9a465b031f84195a90bbb7e1be10a14d",
     "branch": "HEAD"
@@ -105,7 +105,7 @@
     "branch": "HEAD"
   },
   "waves-intro": {
-    "sha": "bad6fe28e15cd2eb55f269bf3971f8086e137a2c",
+    "sha": "d3038992dcd6edcaeb6e592456a2b9327e925ca6",
     "branch": "1.1"
   }
 }
