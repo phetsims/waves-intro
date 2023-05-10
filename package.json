@@ -24,7 +24,12 @@
     ],
     "supportsSound": true,
     "supportsInteractiveDescriptions": true,
-    "simulation": true
+    "simulation": true,
+    "screenNameKeys": [
+      "WAVES_INTRO/water",
+      "WAVES_INTRO/sound",
+      "WAVES_INTRO/light"
+    ]
   },
   "eslintConfig": {
     "extends": "../chipper/eslint/sim_es6_eslintrc.js"
