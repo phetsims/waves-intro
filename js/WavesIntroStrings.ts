@@ -5,20 +5,20 @@
  */
 /* eslint-disable */
 import getStringModule from '../../chipper/js/getStringModule.js';
-import LinkableProperty from '../../axon/js/LinkableProperty.js';
+import type LocalizedStringProperty from '../../chipper/js/LocalizedStringProperty.js';
 import wavesIntro from './wavesIntro.js';
 
 type StringsType = {
   'waves-intro': {
     'title': string;
-    'titleStringProperty': LinkableProperty<string>;
+    'titleStringProperty': LocalizedStringProperty;
   };
   'water': string;
-  'waterStringProperty': LinkableProperty<string>;
+  'waterStringProperty': LocalizedStringProperty;
   'sound': string;
-  'soundStringProperty': LinkableProperty<string>;
+  'soundStringProperty': LocalizedStringProperty;
   'light': string;
-  'lightStringProperty': LinkableProperty<string>;
+  'lightStringProperty': LocalizedStringProperty;
 };
 
 const WavesIntroStrings = getStringModule( 'WAVES_INTRO' ) as StringsType;
