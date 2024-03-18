@@ -17,7 +17,7 @@
     "branch": "HEAD"
   },
   "chipper": {
-    "sha": "f830e9070c03d867f6d310d3ffa6a864f52d3e33",
+    "sha": "33e803a5d29e0bb78578f2d8dc5846a58389396c",
     "branch": "HEAD"
   },
   "dot": {
@@ -29,7 +29,7 @@
     "branch": "HEAD"
   },
   "joist": {
-    "sha": "3c95d7980250d78cf48e58a9663ee7b5188ad03d",
+    "sha": "558831d2e151cf8f4d373584a5147ed5dee5347d",
     "branch": "HEAD"
   },
   "kite": {
@@ -105,7 +105,7 @@
     "branch": "HEAD"
   },
   "waves-intro": {
-    "sha": "8af414aa1da873bcf737a21cd428cc8ebe9f8983",
+    "sha": "ad868bf4041ae1ed48d4450b0816f98c1acccaf3",
     "branch": "1.1"
   }
 }
