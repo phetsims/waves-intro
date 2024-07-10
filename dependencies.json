@@ -1,5 +1,5 @@
 {
-  "comment": "# waves-intro 1.1.19 Sun Jun 09 2024 21:23:49 GMT-0600 (Mountain Daylight Time)",
+  "comment": "# waves-intro 1.1.20-rc.1 Wed Jul 10 2024 01:14:29 GMT-0600 (Mountain Daylight Time)",
   "assert": {
     "sha": "3df8c5ff9a465b031f84195a90bbb7e1be10a14d",
     "branch": "HEAD"
@@ -105,7 +105,7 @@
     "branch": "HEAD"
   },
   "waves-intro": {
-    "sha": "131a3e1a040f0903167d8c2bc0edda015ad07b0b",
+    "sha": "579447ec5f7b09721e6f92b4bb60f8cd2aacb7b6",
     "branch": "1.1"
   }
 }
