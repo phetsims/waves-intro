@@ -44,7 +44,7 @@
         ],
         "parserOptions": {
           "project": [
-            "../waves-intro/tsconfig.json"
+            "../chipper/tsconfig/eslint-all/tsconfig.json"
           ]
         }
       }
