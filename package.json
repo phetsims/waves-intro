@@ -34,8 +34,5 @@
       "WAVES_INTRO/sound",
       "WAVES_INTRO/light"
     ]
-  },
-  "eslintConfig": {
-    "extends": "../chipper/eslint/sim_eslintrc.js"
   }
 }
