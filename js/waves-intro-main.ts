@@ -12,6 +12,7 @@ import simLauncher from '../../joist/js/simLauncher.js';
 import platform from '../../phet-core/js/platform.js';
 import AlignGroup from '../../scenery/js/layout/constraints/AlignGroup.js';
 import Image from '../../scenery/js/nodes/Image.js';
+import Tandem from '../../tandem/js/Tandem.js';
 import MediumScreen from '../../wave-interference/js/common/MediumScreen.js';
 import lightScreenIcon_png from '../images/lightScreenIcon_png.js';
 import soundScreenIcon_png from '../images/soundScreenIcon_png.js';
@@ -19,20 +20,6 @@ import waterScreenIcon_png from '../images/waterScreenIcon_png.js';
 import WavesIntroStrings from './WavesIntroStrings.js';
 
 const wavesIntroTitleStringProperty = WavesIntroStrings[ 'waves-intro' ].titleStringProperty;
-
-const simOptions = {
-  credits: {
-    leadDesign: 'Amy Rouinfar, Noah Podolefsky',
-    softwareDevelopment: 'Sam Reid',
-    team: 'Wendy Adams, Diana L\u00f3pez Tavares, Ariel Paul, Kathy Perkins, Kathryn Woessner',
-    qualityAssurance: 'Steele Dalton, Megan Lai, Brooklyn Lash, Liam Mulhall, Devon Quispe, Laura Rea, Jacob Romero, Kathryn Woessner, Kelly Wurtz',
-    graphicArts: 'Cheryl McCutchan',
-    thanks: 'We gratefully acknowledge support from STROBE NSF Science & Technology Center Grant DMR-1548924. Any ' +
-            'opinions, findings, and conclusions or recommendations expressed in this material are those of the authors ' +
-            'and do not necessarily reflect the views of the National Science Foundation.'
-  },
-  webgl: platform.mobileSafari
-};
 
 // launch the sim - beware that scenery Image nodes created outside of simLauncher.launch() will have zero bounds
 // until the images are fully loaded, see https://github.com/phetsims/coulombs-law/issues/70
@@ -53,7 +40,8 @@ simLauncher.launch( () => {
       homeScreenIcon: new ScreenIcon( new Image( waterScreenIcon_png ), {
         maxIconWidthProportion: 1,
         maxIconHeightProportion: 1
-      } )
+      } ),
+      tandem: Tandem.OPT_OUT
     } ),
     new MediumScreen( alignGroup, {
       scenes: [ 'soundScene' ],
@@ -62,7 +50,8 @@ simLauncher.launch( () => {
         maxIconWidthProportion: 1,
         maxIconHeightProportion: 1
       } ),
-      showPlaySoundButton: true
+      showPlaySoundControl: true,
+      tandem: Tandem.OPT_OUT
     } ),
     new MediumScreen( alignGroup, {
       scenes: [ 'lightScene' ],
@@ -70,10 +59,23 @@ simLauncher.launch( () => {
       homeScreenIcon: new ScreenIcon( new Image( lightScreenIcon_png ), {
         maxIconWidthProportion: 1,
         maxIconHeightProportion: 1
-      } )
+      } ),
+      tandem: Tandem.OPT_OUT
     } )
   ];
 
-  const sim = new Sim( wavesIntroTitleStringProperty, screens, simOptions );
+  const sim = new Sim( wavesIntroTitleStringProperty, screens, {
+    credits: {
+      leadDesign: 'Amy Rouinfar, Noah Podolefsky',
+      softwareDevelopment: 'Sam Reid',
+      team: 'Wendy Adams, Diana L\u00f3pez Tavares, Ariel Paul, Kathy Perkins, Kathryn Woessner',
+      qualityAssurance: 'Steele Dalton, Megan Lai, Brooklyn Lash, Liam Mulhall, Devon Quispe, Laura Rea, Jacob Romero, Kathryn Woessner, Kelly Wurtz',
+      graphicArts: 'Cheryl McCutchan',
+      thanks: 'We gratefully acknowledge support from STROBE NSF Science & Technology Center Grant DMR-1548924. Any ' +
+              'opinions, findings, and conclusions or recommendations expressed in this material are those of the authors ' +
+              'and do not necessarily reflect the views of the National Science Foundation.'
+    },
+    webgl: platform.mobileSafari
+  } );
   sim.start();
 } );
