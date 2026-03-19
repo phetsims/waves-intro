@@ -29,7 +29,7 @@
     "branch": "HEAD"
   },
   "joist": {
-    "sha": "24f97de31939b3b7bc59fb12e81ff20f734532a5",
+    "sha": "b47978a7bd3c99d18675b5a4b0c3c762cafe3872",
     "branch": "HEAD"
   },
   "kite": {
@@ -105,7 +105,7 @@
     "branch": "HEAD"
   },
   "waves-intro": {
-    "sha": "b6f07444893e3a77ee2df0d5bff49a3e41b32f6b",
+    "sha": "b645b050589c57866432a12bdf620ec07dfddb73",
     "branch": "1.1"
   }
 }
