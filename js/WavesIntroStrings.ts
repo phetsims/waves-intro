@@ -26,4 +26,6 @@ type StringsType = {
 
 const WavesIntroStrings = getStringModule( 'WAVES_INTRO' ) as StringsType;
 
+wavesIntro.register( 'WavesIntroStrings', WavesIntroStrings );
+
 export default WavesIntroStrings;
