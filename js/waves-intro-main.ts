@@ -68,7 +68,7 @@ simLauncher.launch( () => {
     credits: {
       leadDesign: 'Amy Rouinfar, Noah Podolefsky',
       softwareDevelopment: 'Sam Reid',
-      team: 'Wendy Adams, Diana L\u00f3pez Tavares, Ariel Paul, Kathy Perkins, Kathryn Woessner',
+      team: 'Wendy Adams, Diana López Tavares, Ariel Paul, Kathy Perkins, Kathryn Woessner',
       qualityAssurance: 'Steele Dalton, Megan Lai, Brooklyn Lash, Liam Mulhall, Devon Quispe, Laura Rea, Jacob Romero, Kathryn Woessner, Kelly Wurtz',
       graphicArts: 'Cheryl McCutchan',
       thanks: 'We gratefully acknowledge support from STROBE NSF Science & Technology Center Grant DMR-1548924. Any ' +
