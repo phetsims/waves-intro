@@ -1,5 +1,5 @@
 {
-  "comment": "# waves-intro 1.1.23-rc.1 Thu Apr 16 2026 18:37:31 GMT-0400 (Eastern Daylight Time)",
+  "comment": "# waves-intro 1.1.23 Mon Apr 20 2026 16:36:48 GMT-0400 (Eastern Daylight Time)",
   "assert": {
     "sha": "3df8c5ff9a465b031f84195a90bbb7e1be10a14d",
     "branch": "HEAD"
@@ -105,7 +105,7 @@
     "branch": "HEAD"
   },
   "waves-intro": {
-    "sha": "ccbe2f08a42b850c5729f6479ae2d71299c980fb",
+    "sha": "5160067a700a08fa1318d102912288d8505d1452",
     "branch": "1.1"
   }
 }
