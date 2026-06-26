@@ -13,14 +13,10 @@ import wavesIntro from './wavesIntro.js';
 
 type StringsType = {
   'waves-intro': {
-    'title': string;
     'titleStringProperty': LocalizedStringProperty;
   };
-  'water': string;
   'waterStringProperty': LocalizedStringProperty;
-  'sound': string;
   'soundStringProperty': LocalizedStringProperty;
-  'light': string;
   'lightStringProperty': LocalizedStringProperty;
 };
 
